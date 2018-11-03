@@ -271,7 +271,7 @@ describe('Unit: Commands > Start', function () {
                 expect(ui.log.calledTwice).to.be.true;
                 expect(ui.log.args[0][0]).to.include('---------------');
                 expect(ui.log.args[1][0]).to.match(/Ghost was installed successfully! To complete setup of your publication, visit/);
-                expect(ui.log.args[1][1]).to.eql('https://my-amazing.blog.com/admin101/');
+                expect(ui.log.args[1][1]).to.eql('https://my-amazing.blog.com/ghost/');
 
                 process.argv = oldArgv;
             });
@@ -296,7 +296,7 @@ describe('Unit: Commands > Start', function () {
                 expect(ui.log.callCount).to.eql(2);
                 expect(ui.log.args[0][0]).to.include('---------------');
                 expect(ui.log.args[1][0]).to.match(/Ghost was installed successfully! To complete setup of your publication, visit/);
-                expect(ui.log.args[1][1]).to.eql('http://123.56.6.1/admin101/');
+                expect(ui.log.args[1][1]).to.eql('http://123.56.6.1/ghost/');
 
                 process.argv = oldArgv;
             });
@@ -322,7 +322,7 @@ describe('Unit: Commands > Start', function () {
                 expect(ui.log.args[0][0]).to.match(/Ghost uses direct mail/);
                 expect(ui.log.args[1][0]).to.include('---------------');
                 expect(ui.log.args[2][0]).to.match(/Ghost was installed successfully! To complete setup of your publication, visit/);
-                expect(ui.log.args[2][1]).to.eql('https://my-amazing.blog.com/admin101/');
+                expect(ui.log.args[2][1]).to.eql('https://my-amazing.blog.com/ghost/');
 
                 process.argv = oldArgv;
             });
