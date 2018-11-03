@@ -1,5 +1,5 @@
 {
-  "name": "ghost-cli",
+  "name": "@zce/ghost-cli",
   "version": "1.9.7",
   "description": "Just a CLI manager (for a blogging platform)",
   "author": "Ghost Foundation",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "bin": {
-    "ghost": "./bin/ghost"
+    "zce-ghost": "./bin/ghost"
   },
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov | coveralls",
