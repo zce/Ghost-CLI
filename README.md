@@ -16,7 +16,7 @@
 
 ## Documentation
 
-- [Complete Setup Guide](https://docs.ghost.org/setup/)
+- [Complete Setup Guide](https://docs.ghost.org/install/ubuntu/)
 - [Command Reference](https://docs.ghost.org/api/ghost-cli/)
 - [Knowledgebase](https://docs.ghost.org/api/ghost-cli/knowledgebase/)
 - [Forum](https://forum.ghost.org)
@@ -76,4 +76,4 @@ yarn test
 
 # Copyright & License
 
-Copyright (c) 2016-2018 Ghost Foundation - Released under the [MIT license](LICENSE). Ghost and the Ghost Logo are trademarks of Ghost Foundation Ltd. Please see our [trademark policy](https://ghost.org/trademark/) for info on acceptable usage.
+Copyright (c) 2016-2019 Ghost Foundation - Released under the [MIT license](LICENSE). Ghost and the Ghost Logo are trademarks of Ghost Foundation Ltd. Please see our [trademark policy](https://ghost.org/trademark/) for info on acceptable usage.
